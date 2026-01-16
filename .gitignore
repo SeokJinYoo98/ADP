@@ -1,0 +1,70 @@
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Unity (생성물/캐시) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+AssetBundles/
+BuildReport/
+CrashReports/
+sysinfo.txt
+
+# --- Addressables/캐시 ---
+[Aa]ddressable[Aa]ssets[Dd]ata*/
+ServerData/
+
+# --- 패키지/임시 산출물 ---
+*.unitypackage
+*.log
+/Packages/com.unity.package-manager/
+
+# --- IDE/프로젝트 파일 ---
+.vs/
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.vcxproj
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.user
+*.userprefs
+*.suo
+*.tmp
+*.svd
+*.booproj
+*.vsconfig
+
+# Unity Editor layout/preferences
+*.dwlt
+*.wlt
+*.layout
+
+# --- 모바일 빌드 산출물 ---
+*.apk
+*.aab
+*.ipa
+*.keystore
+**/local.properties
+
+# --- iOS/Xcode ---
+DerivedData/
+*.xcworkspace
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+
+# --- 기타 ---
+.gradle/
